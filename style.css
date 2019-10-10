@@ -1,0 +1,140 @@
+*{
+    padding:0px;
+    margin:0px;
+}
+body {
+ background:black;
+ position:relative;
+ 
+}
+h1{
+    border:2px solid red;
+    color:red;
+}
+h4{
+    border:2px double red;
+    color:red;
+    text-align:center;
+    color:white;
+    font-family:monospace;
+    position:relative;
+    radius:50%;
+    font-size:35px;
+}
+nav>ul li{
+    display:inline-block;
+    padding:5px;
+    font-family:tahoma;
+    text-transform:uppercase ;
+    text-align:center ;
+    color:white;
+    font-size:18px;
+    border:2px solid red;
+    background:grey;
+    text-decoration:none;
+}
+nav>ul li:hover{
+    color:red;
+    background:linear-gradient(-45deg, orange 50% ,green 50%);
+    
+}
+nav{
+    text-align:center;
+    margin-top:5px;
+}
+section{
+    margin-top:5px;
+    height:70%;
+    width:100%;
+    
+}
+.profile{
+ 
+ clear:both;
+ 
+
+    
+}
+.skill{
+ 
+ clear:both;
+
+    
+}
+.project{
+ 
+ clear:both;
+ 
+
+    
+}
+.video{
+ 
+ clear:both;
+ 
+
+    
+}
+#profile{
+    border:2px double white;
+    border-radius:50%;
+    float:left;
+}
+p{
+    color:white;
+    margin:5px 0px 5px 0px;
+    text-transform:uppercase;
+    font-family:monospace,serif,sans-serif;
+    text-align:justify;
+}
+
+h1 span{
+    border:2px double black;
+    text-align:center;
+}
+#skill ul li{
+    color:white;
+    margin:10px 100px;
+
+}
+
+a{
+    text-decoration:none;
+    color:white;
+}
+
+#profile:hover{
+width:200px;
+height:300px;
+    
+}
+table,th,td{
+    border:2px solid white;
+}
+
+table{
+    
+    border-collapse:collapse;
+    text-transform:uppercase;
+    text-align:center;
+}
+th{
+    font-family:monospace;
+    font-size:25px;
+    color:red;
+    padding:15px;
+}
+td{
+    color:green;
+    font-size:18px;
+    padding:10px;
+    
+    
+}
+tr:hover{
+    background:#f5f5f5;
+    
+}
+footer{
+    clear:both;
+}
